@@ -1,4 +1,7 @@
 """
+# Developed by: Surojit
+# Project: AI Disease Prediction System
+# Hackathon: AI in Healthcare & Life Sciences
 app.py  –  AI Disease Prediction System (v2)
 Features: AI Chat, Symptom Checkboxes, Nearby Hospital Finder
 Run with:  python -m streamlit run app.py

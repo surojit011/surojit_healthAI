@@ -376,6 +376,6 @@ with st.sidebar:
 
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown(
-    '<div class="footer">AI Health Assistant · Built with ❤️ using Python & Streamlit · Hackathon 2025</div>',
+    '<div class="footer">AI Health Assistant · Built with ❤️by surojit using Python & Streamlit · Hackathon 2025</div>',
     unsafe_allow_html=True
 )

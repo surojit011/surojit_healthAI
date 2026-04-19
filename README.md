@@ -15,22 +15,6 @@ A **Symptom → Disease Prediction** pipeline:
 
 ---
 
-## 🗂️ Project Structure
-
-```
-disease_prediction/
-├── app.py               # Streamlit web application (main UI)
-├── train_model.py       # ML model training script
-├── dataset.csv          # Symptom-disease dataset (15 diseases, 18 symptoms)
-├── model.pkl            # Trained Random Forest model (auto-generated)
-├── label_encoder.pkl    # Label encoder for disease names (auto-generated)
-├── symptom_cols.pkl     # Symptom column order (auto-generated)
-├── requirements.txt     # Python dependencies
-└── README.md            # This file
-```
-
----
-
 ## ⚙️ Setup & Run
 
 ### 1. Clone / Download the project
@@ -53,7 +37,7 @@ This generates `model.pkl`, `label_encoder.pkl`, and `symptom_cols.pkl`.
 ```bash
 streamlit run app.py
 ```
-Open your browser at **http://localhost:8501**
+Open your browser
 
 ---
 
